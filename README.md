@@ -17,7 +17,7 @@ Download OCS 2025 ensemble results:
 
 The stock assessment [report](https://meetings.wcpfc.int/node/26650) describes the MCMC method (2.4.10), uncertainty grid (2.4.11), and results (3.1.5 to 3.1.8).
 
-The uncertainty analysis was based on an ensemble of 36 models with the following grid axes:
+The uncertainty analysis is based on an ensemble of 36 models with the following grid axes:
 
 Axis               | Levels | Option
 ------------------ | ------ | -----------------------------------
