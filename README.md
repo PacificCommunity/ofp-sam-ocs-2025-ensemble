@@ -34,16 +34,16 @@ The [MCMC_plots.R](MCMC_plots.R) script reads the posterior draws from the `mcmc
 
 Running the command `Rscript MCMC_plots.R` produces [Rplots.pdf](Rplots.pdf) that contains the following plots:
 
-R plot | Report figure | Notes
------- | ------------- | ----------------------
-     1 |            37 | Refpts by Growth
-     2 |            35 | Refpts by LF_weight
-     3 |            39 | Refpts by Disc
-     4 |            36 | Refpts by Beta
-     5 |            42 | F time series
-     6 |            44 | SB/SB0 time series
-     7 |             - | RecDev time series
-     8 |            45 | Multipanel time series
-     9 |            38 | Time series by Growth
-    10 |            40 | Time series by Disc
-    11 |            46 | Majuro
+| R plot | Report figure | Notes                  |
+| ------ | ------------- | ---------------------- |
+|      1 |            37 | Refpts by Growth       |
+|      2 |            35 | Refpts by LF_weight    |
+|      3 |            39 | Refpts by Disc         |
+|      4 |            36 | Refpts by Beta         |
+|      5 |            42 | F time series          |
+|      6 |            44 | SB/SB0 time series     |
+|      7 |             - | RecDev time series     |
+|      8 |            45 | Multipanel time series |
+|      9 |            38 | Time series by Growth  |
+|     10 |            40 | Time series by Disc    |
+|     11 |            46 | Majuro                 |
