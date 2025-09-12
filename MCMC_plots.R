@@ -4,11 +4,11 @@ require(tidyverse)
 require(tidybayes)
 require(data.table)
 require(patchwork)
-source("get-zhou-ref-points.r")
-source("plot_funs.R")
+source("R/get-zhou-ref-points.r")
+source("R/plot_funs.R")
 
 # MCMC ensemble outputs ----
-load("mcmc_ensemble.rda")
+load("data/mcmc_ensemble.rda")
 
 ## Table 7.1; plus additional metrics reported in SC recommendations ----
 posterior::as_draws(mcmc) %>% 
@@ -54,7 +54,7 @@ fmsy <- mmelt %>%
 
 fmsy <- data.frame(Year = (1990:2024), fmsy)
 
-load('OCS_model.Rdata')
+load('data/OCS_model.Rdata')
 
 ## F plot ----
 
