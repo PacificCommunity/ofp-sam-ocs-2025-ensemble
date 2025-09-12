@@ -20,7 +20,7 @@ The stock assessment [report](https://meetings.wcpfc.int/node/26650) describes t
 The uncertainty analysis is based on an ensemble of 36 models with the following grid axes:
 
 Axis               | Levels | Option
------------------- | ------ | -----------------------------------
+------------------ | ------ | -------------------
 Growth and M prior |      2 | **Joung**, Seki
 LF weighting       |      3 | Low, **Base**, High
 SR beta            |      3 | 1, **2**, 4
