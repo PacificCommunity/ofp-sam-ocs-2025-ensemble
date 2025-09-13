@@ -34,16 +34,27 @@ The [MCMC_plots.R](MCMC_plots.R) script reads the posterior draws from the `mcmc
 
 Running the command `Rscript MCMC_plots.R` produces [Rplots.pdf](Rplots.pdf) that contains the following plots:
 
-| R plot | Report figure | Notes                  |
-| ------ | ------------- | ---------------------- |
-|      1 |            37 | Refpts by Growth       |
-|      2 |            35 | Refpts by LF_weight    |
-|      3 |            39 | Refpts by Disc         |
-|      4 |            36 | Refpts by Beta         |
-|      5 |            42 | F time series          |
-|      6 |            44 | SB/SB0 time series     |
-|      7 |             - | RecDev time series     |
-|      8 |            45 | Multipanel time series |
-|      9 |            38 | Time series by Growth  |
-|     10 |            40 | Time series by Disc    |
-|     11 |            46 | Majuro                 |
+R plot | Report figure | Notes
+------ | ------------- | ----------------------
+1      | 37            | Refpts by Growth
+2      | 35            | Refpts by LF_weight
+3      | 39            | Refpts by Disc
+4      | 36            | Refpts by Beta
+5      | 42            | F time series
+6      | 44            | SB/SB0 time series
+7      | -             | RecDev time series
+8      | 45            | Multipanel time series
+9      | 38            | Time series by Growth
+10     | 40            | Time series by Disc
+11     | 46            | Majuro
+
+Likewise, running the command `Rscript Table_7_1.R` produces the following CSV file:
+
+Variable     | Mean | Median | SD   | MAD  |   5% |  95%
+------------ | ---- | ------ | ---- | ---- | ---- | ----
+SBrecent/SB0 | 0.06 | 0.06   | 0.01 | 0.01 | 0.04 | 0.08
+Frecent/Fmsy | 1.07 | 1.19   | 0.25 | 0.28 | 0.73 | 1.39
+Finit        | 0.21 | 0.21   | 0.03 | 0.04 | 0.16 | 0.27
+ln(R0)       | 5.29 | 5.29   | 0.13 | 0.13 | 5.08 | 5.52
+M            | 0.15 | 0.15   | 0.01 | 0.01 | 0.13 | 0.17
+zfrac        | 0.93 | 0.93   | 0.03 | 0.03 | 0.87 | 0.97
